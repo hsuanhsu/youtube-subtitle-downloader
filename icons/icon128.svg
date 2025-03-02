@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="16" fill="#FF0000"/>
+  
+  <!-- 背景圖案 -->
+  <path d="M24 24h80v80H24z" fill="#FF1A1A"/>
+  
+  <!-- 字幕線條 -->
+  <path d="M32 48h64M32 64h64M32 80h48" 
+        stroke="white" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <!-- 下載箭頭 -->
+  <path d="M104 96l-16-16v16" 
+        stroke="white" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- 頂部裝飾 -->
+  <path d="M40 32c0-1.657 1.343-3 3-3h42c1.657 0 3 1.343 3 3s-1.343 3-3 3H43c-1.657 0-3-1.343-3-3z" 
+        fill="white"/>
+  
+  <!-- 光澤效果 -->
+  <path d="M16 16l96 96" 
+        stroke="rgba(255,255,255,0.2)" 
+        stroke-width="32" 
+        stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube字幕下載器</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>YouTube字幕下載器</h2>
+    <div id="status" class="status">
+      <p id="message">請前往YouTube影片頁面</p>
+    </div>
+    <div id="download-section" class="hidden">
+      <select id="language-select" class="select">
+        <option value="">選擇字幕語言</option>
+      </select>
+      <select id="format-select" class="select">
+        <option value="txt">TXT格式</option>
+        <option value="srt">SRT格式</option>
+        <option value="vtt">VTT格式</option>
+      </select>
+      <button id="download-btn" class="button">下載字幕</button>
+    </div>
+    <div class="footer">
+      <button id="options-btn" class="button-link">設定</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

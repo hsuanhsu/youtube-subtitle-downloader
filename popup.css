@@ -1,0 +1,111 @@
+/* 基本樣式設定 */
+body {
+  width: 300px;
+  padding: 15px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h2 {
+  margin: 0;
+  color: #FF0000;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #FF0000;
+}
+
+/* 狀態顯示區域 */
+.status {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+#message {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+/* 下載區域 */
+.select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  background-color: #FF0000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #CC0000;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* 頁尾區域 */
+.footer {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.button-link {
+  background: none;
+  border: none;
+  color: #666;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 0;
+}
+
+.button-link:hover {
+  color: #FF0000;
+}
+
+/* 工具類 */
+.hidden {
+  display: none;
+}
+
+/* 載入動畫 */
+.loading {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* 錯誤狀態 */
+.error {
+  color: #dc3545;
+}
+
+/* 成功狀態 */
+.success {
+  color: #28a745;
+}
