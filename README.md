@@ -1,5 +1,7 @@
 # YouTube Subtitle Downloader
 
+English | [繁體中文](README.zh-TW.md)
+
 A Chrome extension that allows you to download YouTube video subtitles with one click.
 
 ## Features
@@ -44,7 +46,3 @@ No user data is collected or transmitted to external servers.
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-See [README.zh-TW.md](README.zh-TW.md) for Traditional Chinese version.

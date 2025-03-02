@@ -1,5 +1,7 @@
 # YouTube 字幕下載器
 
+[English](README.md) | 繁體中文
+
 一個可以一鍵下載 YouTube 影片字幕的 Chrome 擴充功能。
 
 ## 功能特色
@@ -44,7 +46,3 @@
 ## 授權條款
 
 本專案採用 MIT 授權條款。
-
----
-
-查看 [README.md](README.md) 取得英文版說明。
